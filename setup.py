@@ -47,7 +47,7 @@ setup(name='pheno-calour',
       url='https://github.com/amnona/calour',
       test_suite='nose.collector',
       packages=find_packages(),
-      package_data={'pheno-calour': ['data/pheno-calour-data.txt']},
+      package_data={'pheno_calour': ['data/pheno-calour-data.txt']},
       install_requires=[
           'calour'],
       extras_require={'test': ["nose", "pep8", "flake8"],
